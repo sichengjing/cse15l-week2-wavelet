@@ -1,6 +1,6 @@
 import java.net.URI;
 
-class SearchEngine implements NumberServer {
+class SearchEngine implements URLHandler {
     ArrayList<String> arr = new ArrayList();
     ArrayList<String> ans = new ArrayList();
 
