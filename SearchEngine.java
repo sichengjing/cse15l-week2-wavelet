@@ -4,7 +4,7 @@ class SearchEngine implements URLHandler {
     ArrayList<String> arr = new ArrayList();
     ArrayList<String> ans = new ArrayList();
 
-    public add(URI url){
+    public void add(URI url){
         if (url.getPath().contains("/add?")) {
             String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
