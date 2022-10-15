@@ -1,5 +1,3 @@
-package newSearch221015;
-
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
